@@ -2,11 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <div className="flex flex-col my-5 xl:mx-[25rem] font-helvetica space-y-8">
-
-    <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">About Us</h1>
-=======
     <div className="flex flex-col my-5 xl:mx-[25rem] font-helvetica">
 
     {}
@@ -15,7 +10,6 @@ export default function Home() {
       <div className="text-sm md:text-base mt-5 space-y-8">
       <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">About us</h1>
       </div>
->>>>>>> 6d01626 (deployment test)
 
 
       <div className="px-4 md:px-8 mt-5 text-sm md:text-base">
