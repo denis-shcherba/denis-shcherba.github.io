@@ -9,8 +9,13 @@ export default function Home() {
 
 
 
+<<<<<<< HEAD
       <div className="text-sm md:text-base mt-5 space-y-8">
       <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">Get in touch</h1>
+=======
+    <div className="text-sm md:text-base mt-5 space-y-8">
+    <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">Get in touch</h1>
+>>>>>>> 6d01626 (deployment test)
 
         <p className="text-start px-4 md:px-8">
         At ThaiGerLab, we are committed to delivering premium

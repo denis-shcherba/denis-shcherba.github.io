@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <div className="flex flex-col my-5 xl:mx-[25rem] font-helvetica space-y-8">
       <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">Key Benefits of Medical Cannabis</h1>
 
@@ -11,6 +12,18 @@ export default function Home() {
       </div>
 
       <div className="px-4 xl:px-0 mt-5 text-sm md:text-base">
+=======
+    <div className="flex flex-col my-5 xl:mx-[25rem] font-helvetica">
+
+    {}
+
+
+      <div className="text-sm md:text-base mt-5 space-y-8">
+      <h1 className="font-bold text-2xl md:text-5xl text-colors-black text-center">Key benefits of cannabis</h1>
+      </div>
+
+      <div className="px-4 xl:px-0 text-sm md:text-base space-y-8">
+>>>>>>> 6d01626 (deployment test)
         <section>
           <h2 className="font-bold text-2xl md:text-3xl text-colors-black mt-6 mb-3">
             1. Pain Management and Relief
@@ -31,4 +44,8 @@ export default function Home() {
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6d01626 (deployment test)
