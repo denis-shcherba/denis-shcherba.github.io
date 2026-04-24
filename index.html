@@ -27,6 +27,37 @@
         footer a:hover {
             text-decoration: underline;
         }
+        .publication {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .publication img {
+            width: 220px;
+            border-radius: 5px;
+            flex: 0 0 220px;
+        }
+        .pub-details {
+            flex: 1;
+        }
+        .pub-details h3 {
+            margin-top: 0;
+        }
+        .links {
+            display: block;
+            margin-top: 8px;
+        }
+        @media (max-width: 620px) {
+            .publication {
+                flex-direction: column;
+            }
+            .publication img {
+                width: 100%;
+                max-width: 220px;
+                flex-basis: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -40,24 +71,35 @@
 
         <section>
             <h2>Publications</h2>
-            <div class="publication">
-                <img src="mops.png" alt="Paper thumbnail" style="float: left; margin-right: 20px; width: 150px; border-radius: 5px;">
+                <div class="publication">
+                <img src="stage.png" alt="Paper thumbnail">
                 <div class="pub-details">
-                    <h3>Meta-Optimization and Program Search using Language Models for Task and Motion Planning</a></h3>
+                    <h3>Stability-Guided Exploration for Diverse Motion Generation</h3>
+                    <p class="authors">Eckart Cobo-Briesewitz, Tilman Burghoff, Denis Shcherba, Armand Jordana and Marc Toussaint</p>
+                    <p class="venue">Under Review</p>
+                    <p class="links">
+                        <a href="https://arxiv.org/pdf/2603.06773" target="_blank">[Paper]</a>
+                        <a href="#" target="_blank">[Code]</a>
+                    </p>
+                </div>
+            </div>
+            <div class="publication">
+                <img src="mops.png" alt="Paper thumbnail">
+                <div class="pub-details">
+                    <h3>Meta-Optimization and Program Search using Language Models for Task and Motion Planning</h3>
                     <p class="authors">Denis Shcherba*, Eckart Cobo-Briesewitz*, Cornelius V. Braun and Marc Toussaint</p>
                     <p class="venue">Accepted at CoRL 2025</p>
                     <p class="links">
                         <a href="https://www.arxiv.org/pdf/2505.03725" target="_blank">[Paper]</a>
-                        <a href="#" target="_blank">[Code]</a>
+                        <a href="https://github.com/denis-shcherba/MOPS" target="_blank">[Code]</a>
                     </p>
                 </div>
-                <div style="clear: both;"></div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Email: <a href="mailto:d.shcherba@campus.tu-berlin.de">d.shcherba@campus.tu-berlin.de</a></p>
+        <p>Email: <a href="mailto:denis.shcherba@hhi.fraunhofer.de">denis.shcherba@hhi.fraunhofer.de</a></p>
     </footer>
 </body>
 </html>
